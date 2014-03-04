@@ -128,3 +128,15 @@ text-align: center;
   color: #6e8d99;
   font-size: 15px;
 }
+
+#start {
+  background-color: #45ad3a;
+  border-radius: 2px;
+  font-size: 18px;
+  width: 332px;
+  height: 26px;
+  color: white;
+  text-align: center;
+  padding-left: 10px;
+  clear: both;
+}
