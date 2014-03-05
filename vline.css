@@ -14,11 +14,22 @@ body {
 }
 
 #logo {
-  margin-left: 20%;               /*check margin later*/
+  margin-left: 20%;
   color:white;
   padding-top: 16px;
   float:left;
   font-size: 25px;
+}
+
+.hoverwhite {
+  text-decoration: none;
+  color: #83c7e4;
+  float: left;
+
+}
+
+.hoverwhite:hover {
+  color: white;
 }
 
 #videochat {
@@ -26,26 +37,19 @@ body {
   background-color: #005379;
   padding: 0 15px;
   border-radius: 15px;
-  color: #83c7e4;
-  float:left;
 }
 
 #developerslink {
-  color: #83c7e4;
-
-  float: left;
   padding-left: 10px;
-  padding-right: 10px
+  padding-right: 10px;
 }
 
 #links {
-  /*margin-right: 10%;*/
   padding: 16px 0 0 ;
-  position:fixed;
-  right: 20%;
   width: 351px;
   height: 30px;
-
+  float: right;
+  margin-right: 20%;
 }
 
 #main {
@@ -71,8 +75,9 @@ color: #6e8d99;
 text-align: center;
 }
 
-#space {
+.space {
   height: 45px;
+  clear: both;
 }
 
 #Main_circle_box {
@@ -83,40 +88,32 @@ text-align: center;
 
 }
 
-.circle_boxes {
+.circle-boxes {
   float: left;
-  height: 279;
+  height: 279px;
   width: 284px;
   text-align: center;
+  margin: 0px;
 }
 
-#scissor {
+.arrow {
+  background-image: url(arrow1.png);
+  width: 168px;
+  height: 40px;
+  float: left;
+  position: relative;
+  top: 74px;
+  margin: 0px -48px 0px -76px;
+}
+
+.thecircles {
 
   background-color: #0079ad;
   border-radius: 100%;
   height: 185px;
   width: 185px;
-
-
 }
 
-#graph {
-  background-color: #0079ad;
-  border-radius: 100%;
-  height: 185px;
-  width: 185px;
-
-
-}
-
-#tv {
-  background-color: #0079ad;
-  border-radius: 100%;
-  height: 185px;
-  width: 185px;
-
-
-}
 
 .steps {
   padding-top: 20px;
@@ -137,6 +134,9 @@ text-align: center;
   height: 26px;
   color: white;
   text-align: center;
-  padding-left: 10px;
   clear: both;
+  padding: 10px 36px;
+  line-height: 26px
 }
+
+
